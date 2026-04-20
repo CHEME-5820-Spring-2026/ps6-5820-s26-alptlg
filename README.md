@@ -60,3 +60,4 @@ julia --project=. --threads=auto scripts/train_reference.jl
 ```
 
 The script downloads TinyStories, trains a 4-layer / d=256 NanoGPT for 15 000 steps, saves the checkpoint to `data/reference_checkpoint.jld2`, and prints an induction-head scan. The checkpoint ships with the repo for student runs.
+Alpomer Tolga Aksit
